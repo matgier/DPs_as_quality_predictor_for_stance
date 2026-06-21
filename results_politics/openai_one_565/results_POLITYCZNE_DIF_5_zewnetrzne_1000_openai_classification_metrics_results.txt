@@ -1,0 +1,9 @@
+============================================================
+results_POLITYCZNE_DIF_5_zewnetrzne_1000_openai
+
+GOVERNMENT_INTERVENTION:
+  Dokładność: 0.7345
+  Precyzja:   0.7128
+  Czułość:    0.7270
+  Wynik F1:   0.7169
+============================================================

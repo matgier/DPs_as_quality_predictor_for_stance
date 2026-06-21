@@ -1,0 +1,6 @@
+
+=== PODSUMOWANIE ROZSZERZONEJ ANALIZY DVA ===
+
+Domena                    | N par  | Cos (μ±σ)       | Proj.Diff (μ±σ)    | Spearman (μ±σ)     | Pearson (μ±σ)     
+------------------------------------------------------------------------------------------------------------------------
+government_intervention   | 9      | 0.597±0.006    | 0.898±0.007        | 0.554±0.008

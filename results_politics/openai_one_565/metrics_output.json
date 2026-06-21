@@ -1,0 +1,92 @@
+{
+    "external_corpus_openai": {
+        "f1": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.697,
+                        0.7169,
+                        0.7081
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.7219,
+                        0.7067,
+                        0.7219
+                    ]
+                }
+            }
+        },
+        "cosine": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.596,
+                        0.625,
+                        0.644
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.006,
+                        0.033,
+                        0.033
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.742,
+                        0.726,
+                        0.708
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.056,
+                        0.04,
+                        0.037
+                    ]
+                }
+            }
+        },
+        "spearman": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.554,
+                        0.584,
+                        0.605
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.008,
+                        0.035,
+                        0.035
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.711,
+                        0.693,
+                        0.673
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.059,
+                        0.043,
+                        0.04
+                    ]
+                }
+            }
+        }
+    }
+}

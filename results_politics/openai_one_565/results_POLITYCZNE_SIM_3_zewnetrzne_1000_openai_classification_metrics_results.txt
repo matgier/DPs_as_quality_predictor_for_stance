@@ -1,0 +1,9 @@
+============================================================
+results_POLITYCZNE_SIM_3_zewnetrzne_1000_openai
+
+GOVERNMENT_INTERVENTION:
+  Dokładność: 0.7540
+  Precyzja:   0.7279
+  Czułość:    0.7176
+  Wynik F1:   0.7219
+============================================================

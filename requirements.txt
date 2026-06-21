@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+
+# Plotting
+matplotlib
+seaborn
+
+# Graphs
+networkx
+
+# LLM / embedding providers
+anthropic
+openai
+google-generativeai
+google-genai
+
+# Embeddings / models
+transformers
+torch
+huggingface_hub
+
+# Document loading / pipeline
+langchain
+requests
+
+# Misc
+sympy

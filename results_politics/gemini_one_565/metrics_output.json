@@ -1,0 +1,92 @@
+{
+    "exteral_corpus_gemini": {
+        "f1": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.6653,
+                        0.6195,
+                        0.6352
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.7542,
+                        0.7474,
+                        0.7413
+                    ]
+                }
+            }
+        },
+        "cosine": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.866,
+                        0.868,
+                        0.869
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.024,
+                        0.02,
+                        0.015
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.926,
+                        0.924,
+                        0.918
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.002,
+                        0.002,
+                        0.01
+                    ]
+                }
+            }
+        },
+        "spearman": {
+            "dif": {
+                "mu": {
+                    "government_intervention": [
+                        0.675,
+                        0.679,
+                        0.68
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.053,
+                        0.044,
+                        0.033
+                    ]
+                }
+            },
+            "sim": {
+                "mu": {
+                    "government_intervention": [
+                        0.81,
+                        0.806,
+                        0.793
+                    ]
+                },
+                "sd": {
+                    "government_intervention": [
+                        0.003,
+                        0.005,
+                        0.021
+                    ]
+                }
+            }
+        }
+    }
+}
