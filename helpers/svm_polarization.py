@@ -183,7 +183,7 @@ class SVMPolarizer:
     Zoptymalizowany dla wysokowymiarowych danych (1536, 3072, 5000+ wymiarów).
     """
     
-    def __init__(self, random_seed: int = 23, embedding_api: str = None, api_key: str = None, layer_in_model: int = None):
+    def __init__(self, random_seed: int = 42, embedding_api: str = None, api_key: str = None, layer_in_model: int = None):
         self.random_seed = random_seed
         np.random.seed(self.random_seed)
         
