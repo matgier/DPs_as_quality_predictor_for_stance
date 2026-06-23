@@ -38,29 +38,6 @@ Each notebook implements the same flow (sections 0–6 in the notebook):
 7. **Reports** – confusion matrices and classification & DVA metrics written to the
    `results_*` directories.
 
-## Repository structure
-
-```
-.
-├── extract_graph_politics_one.ipynb     # full experiment – politics domain
-├── extract_graph_vacciness_one.ipynb    # full experiment – health domain
-├── documents/                           # input data (source texts, JSON)
-├── helpers/                             # helper library (imported by the notebooks)
-│   ├── semantic_multi_agent_definitions.py  # multi-agent DP extraction (LLM)
-│   ├── polarization_embedings.py            # embedding generation (OpenAI/Gemini/Voyage/Ollama)
-│   ├── dva_group.py                         # DVA analysis (geometric convergence)
-│   ├── svm_polarization.py                  # SVM classification
-│   ├── all_keys.py                          # API keys (fill in your own)
-│   └── utils.py                             # JSON file loading
-├── results_politics/                    # results – politics
-│   ├── openai_one/  openai_one_565/
-│   └── gemini_one/  gemini_one_565/
-├── results_vaccine/                     # results – health
-│   ├── openai_one/
-│   └── gemini_one/
-└── checkpoints/                         # checkpoints for intermediate results
-```
-
 ## Result file naming convention
 
 Files in `results_*` encode the experiment configuration, e.g.
@@ -70,7 +47,7 @@ Files in `results_*` encode the experiment configuration, e.g.
 - **`BASELINE` / `SIM` / `DIF`** – DP set variant (baseline / convergent / divergent),
 - **`3` / `5` / `10`** – DP set size,
 - **`openai` / `gemini`** – model used for embeddings,
-- **`_565` / `zewnetrzne_1000`** – larger / external evaluation set,
+- **`_565` – larger / external evaluation set,
 - **`_classification_metrics_results.txt`** – accuracy, precision, recall, F1,
 - **`_dva_metrics.txt`** – DVA metrics (cosine, projection diff, Spearman, Pearson).
 
