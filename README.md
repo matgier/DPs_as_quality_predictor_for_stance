@@ -15,7 +15,7 @@ The experiment is run independently for two topical domains:
 
 | Domain | Results prefix | Notebook | Input data |
 |--------|----------------|----------|------------|
-| Politics (US, Dem vs Rep) | `POLITYCZNE` | [extract_graph_politics_one.ipynb](extract_graph_politics_one.ipynb) | `documents/demo_repub_dataset.json`, `documents/demo_repub_dataset*.json` |
+| Politics (US, Dem vs Rep) | `POLITYCZNE` | [extract_graph_politics_one.ipynb](extract_graph_politics_one.ipynb) | `documents/demo_repub_dataset.json` |
 | Health / vaccines | `ZDROWOTNE` | [extract_graph_vacciness_one.ipynb](extract_graph_vacciness_one.ipynb) | `documents/vacciness_dataset.json` |
 
 ## Pipeline
